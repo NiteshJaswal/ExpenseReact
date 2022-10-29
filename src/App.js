@@ -1,8 +1,6 @@
 import React , {useState , useEffect} from 'react';
 import NewExpense from './components/New Expense/NewExpense';
-//it is for component
 
-//import ExpenseItems from './components/ExpenseItems';
 import Expenses from './components/Expenses/Expenses';
 
     let dumExpense = [

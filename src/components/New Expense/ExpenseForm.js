@@ -17,7 +17,7 @@ const ExpenseForm = (props) => {
         setEnterDate(event.target.value);
     };
     const submitHandler = (event) =>{
-          event.preventDefault();   //it is for not refreshing form page
+          event.preventDefault();   
 
 
         const expenseData = {
@@ -25,8 +25,7 @@ const ExpenseForm = (props) => {
             amount: enterAmount,
             date: new Date(enterDate)
         }
-        props.onSaveExpenseData(expenseData)          //props to share child file in parent 
-
+        props.onSaveExpenseData(expenseData)         
         console.log(expenseData)   
         setEnterTitle('');  //this is two way binding
         setEnterAmount('');

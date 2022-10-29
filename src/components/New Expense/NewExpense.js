@@ -3,7 +3,7 @@ import './NewExpense.css';
 import ExpenseForm from './ExpenseForm';
 
 const NewExpense = (props) =>{
-    //through function we join child file with parent file
+  
     const saveExpenseHandler = (enterExpenseData) =>{
     const expenseData = {
         ...enterExpenseData,

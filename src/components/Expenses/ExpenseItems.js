@@ -4,19 +4,7 @@ import Expensedate from './Expensedate';
 import Card from '../UI/Card';
 
 const ExpenseItems = (props)=>{
-  // const month = props.date.toLocaleString('en-US' , {month : 'long'});
-  // const year =  props.date.getFullYear();
-  // const day= props.date.toLocaleString('en-US' , {day : '2-digit'}); 
-//   const [newTitle , setNewTitle]= useState(" ");
-
-// const [title , setTitle]= useState(props.title);
- 
-// const clickHandler = () =>{
-//            setTitle(newTitle);
-// }
-// const changeHandler = (event)=>{
-//   setNewTitle(event.target.value);
-// }  
+  
 return (
 <Card className='expense-items'>
     <Expensedate date={new Date(props.date)} />
